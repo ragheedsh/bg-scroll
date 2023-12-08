@@ -2,11 +2,29 @@ body {
   margin: 0;
 }
 
-.image-style {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.menu {
+  border: 2px solid rgba(128, 128, 128, 0.349);
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.menu-item {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px 0;
+  transition: all 0.2s;
+}
+.menu-item:hover {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
 }
